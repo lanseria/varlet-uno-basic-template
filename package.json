@@ -1,0 +1,48 @@
+{
+  "name": "varlet-uno-basic-template",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "keywords": [
+    "vitejs",
+    "vue3"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "lint": "eslint src --fix",
+    "preview": "vite preview",
+    "up": "taze major -I"
+  },
+  "dependencies": {
+    "@varlet/ui": "^3.1.2",
+    "@vueuse/core": "^10.9.0",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.8.0",
+    "@iconify-json/carbon": "^1.1.31",
+    "@types/node": "^20.11.25",
+    "@unocss/eslint-plugin": "^0.58.5",
+    "@unocss/reset": "^0.58.5",
+    "@varlet/import-resolver": "^3.1.2",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-format": "^0.1.0",
+    "pnpm": "^8.15.4",
+    "taze": "^0.13.3",
+    "typescript": "^5.4.2",
+    "unocss": "^0.58.5",
+    "unplugin-auto-import": "^0.17.5",
+    "unplugin-vue-components": "^0.26.0",
+    "unplugin-vue-router": "^0.8.4",
+    "vite": "^5.1.5",
+    "vite-plugin-pages": "^0.32.0",
+    "vue-tsc": "^2.0.6"
+  }
+}
